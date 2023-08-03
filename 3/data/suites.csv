@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","","","2636","","BuscarFilmeEspecificoTest","","BuscarFilmeEspecificoTest","","testQuandoBuscoUmFilmeEspecificoEntaoObtenhoStatusCode200EOsDadosDaResposta",""
+"passed","","","1473","","com.swapi.BuscarEspaconaveEspecificaTest","","com.swapi.BuscarEspaconaveEspecificaTest","","testQuandoListoAsEspaconavesEntaoObtenhoStatusCode200EOsDadosDaResposta",""
+"passed","","","6407","","BuscarPersonagemEspecificoTest","","BuscarPersonagemEspecificoTest","","testQuandoBuscoUmPersonagemEspecificoEntaoObtenhoStatusCode200EOsDadosDaResposta",""
+"passed","","","4810","","ListarPersonagensTest","","ListarPersonagensTest","","testQuandoListoOsPersonagensEntaoObtenhoStatusCode200EOsDadosDaResposta",""
+"passed","","","8858","","ListarFilmesTest","","ListarFilmesTest","","testQuandoListoOsFilmesEntaoObtenhoStatusCode200EOsDadosDaResposta",""
+"passed","","","3147","","ListarEspaconavesTest","","ListarEspaconavesTest","","testQuandoListoAsEspaconavesEntaoObtenhoStatusCode200EOsDadosDaResposta",""
