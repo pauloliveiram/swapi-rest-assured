@@ -1,6 +1,7 @@
 ListarEspaconavesTest.class
 com/swapi/BuscarEspaconaveEspecificaTest.class
-ListarPersonagensTest.class
 ListarFilmesTest.class
-BuscarFilmeEspecificoTest.class
 BuscarPersonagemEspecificoTest.class
+ListarPersonagensTest.class
+BuscarFilmeEspecificoTest.class
+com/swapiTests/ListarVeiculosTest.class
