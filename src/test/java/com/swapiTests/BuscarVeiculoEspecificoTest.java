@@ -1,4 +1,4 @@
-package com.swapi;
+package com.swapiTests;
 
 import io.restassured.http.ContentType;
 import org.junit.Test;
@@ -8,16 +8,16 @@ import java.util.List;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-public class BuscarEspaconaveEspecificaTest {
+public class BuscarVeiculoEspecificoTest {
     @Test
-    public void testQuandoBuscoUmaEspaconaveEspecificaEntaoObtenhoStatusCode200EOsDadosDaResposta() {
+    public void testQuandoBuscoUmVeiculoEspecificoEntaoObtenhoStatusCode200EOsDadosDaResposta() {
         baseURI = "https://swapi.dev";
         basePath = "/api";
 
         given()
             .contentType(ContentType.JSON)
         .when()
-            .get("/starships/2")
+            .get("/vehicles/4")
         .then()
             .assertThat()
                 .statusCode(200)
@@ -31,14 +31,12 @@ public class BuscarEspaconaveEspecificaTest {
                 .body("passengers", isA(String.class))
                 .body("cargo_capacity", isA(String.class))
                 .body("consumables", isA(String.class))
-                .body("hyperdrive_rating", isA(String.class))
-                .body("MGLT", isA(String.class))
-                .body("starship_class", isA(String.class))
+                .body("vehicle_class", isA(String.class))
                 .body("pilots", isA(List.class))
                 .body("films", isA(List.class))
                 .body("films[0]", isA(String.class))
                 .body("created", isA(String.class))
                 .body("edited", isA(String.class))
-                .body("url", containsString("https://swapi.dev/api/starships/"));
+                .body("url", containsString("https://swapi.dev/api/vehicles/"));
     }
 }

@@ -5,3 +5,4 @@ BuscarPersonagemEspecificoTest.class
 ListarPersonagensTest.class
 BuscarFilmeEspecificoTest.class
 com/swapiTests/ListarVeiculosTest.class
+com/swapiTests/BuscarVeiculoEspecificoTest.class
